@@ -21,6 +21,9 @@ public class CardDealer
         matthewTenClubs.setSuit("diamonds");
         
         System.out.println(matthewTenClubs.getValue());
-        System.out.println(matthewTenCLubs.getSuit());
+        System.out.println(matthewTenClubs.getSuit());
+        
+        Card matthewTwoClubs = new Card("Clbs", 2);
+        matthewTwoClubs.setSuit("diamonds");
     }
 }
